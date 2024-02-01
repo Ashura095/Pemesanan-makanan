@@ -1,0 +1,89 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #272626;
+}
+
+.container {
+  width: 80%;
+  max-width: 1200px;
+  padding: 20px;
+  background-image: url("img/background.jpg");
+  background-size: cover;
+  background-position: center;
+  border-radius: 5px;
+  box-shadow: 7px 7px 17px #bababa, -7px -7px 17px #ffffff;
+  border-radius: 50px;
+}
+
+.container h2 {
+  text-align: center;
+  color: #fffffff6;
+  margin-bottom: 20px;
+  font-family: "Gochi Hand", cursive;
+  font-family: "Poor Story", system-ui;
+  font-size: 40px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table th,
+table td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+table th {
+  background-color: #4caf50;
+  color: #fff;
+}
+
+table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+table tr {
+  background-color: #f2f2f2;
+}
+
+table tr:hover {
+  background-color: rgba(255, 255, 255, 0); /* Transparan */
+  color: #ddd;
+}
+
+button {
+  position: relative;
+  border: none;
+  background: transparent;
+  padding: 0;
+  cursor: pointer;
+  outline-offset: 4px;
+  transition: filter 250ms;
+  user-select: none;
+  touch-action: manipulation;
+}
+
+table a {
+  color: #4caf50;
+  text-decoration: none;
+  margin-right: 5px;
+}
+
+table a:hover {
+  text-decoration: underline;
+}
+
+.logout-link {
+  display: block;
+  text-align: center;
+  margin-top: 20px;
+}
